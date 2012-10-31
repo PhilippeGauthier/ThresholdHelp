@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+<link href="css/global.css" rel="stylesheet" />
+
+</head>
+
+<body data-spy="scroll" data-target=".nav-bar">
+	<div class="container">
+
+		<div class="row">
+			<div id="header" class="span7">
+				<div id="logo">
+					<div style="float:left;">
+						<a href="http://help.thresholdcm.com"><img src="/img/logo.png" width="51" height="59" /></a>
+					</div>
+					<div id="project-info">
+						<img align="left" alt="Logo_arrow" src="/img/logo-arrow.png" />
+						<a href="#"><h1>Threshold Help</h1></a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="span8 hidden-desktop">
+				<select id="mobile-select">
+					<optgroup label="Introduction" />
+					<option value="index.html#new-project">New Project</option>
+		        	<option value="index.html#global-dashboard">Global Dashboard</option>
+		        	<option value="index.html#project-dashboard">Project Dashboard</option>
+		        	<option value="index.html#invite-users">Invite Users</option>
+		        	<optgroup label="Uploading" />
+		        	<option value="uploading.html#upload-plans">Upload Plans</option>
+					<option value="uploading.html#upload-photos">Upload Photos</option>
+					<optgroup label="Plan Management" />
+					<option value="plan-management.html#create-sets">Create Sets</option>
+		    		<option value="plan-management.html#organize-sets">Organize Sets</option>
+		    		<option value="plan-management.html#plan-types">Plan Types</option>
+		    		<option value="plan-management.html#alignment">Alignment</option>
+		    		<optgroup label="Dynamic View" />
+		    		<option value="dynamic-view.html#view-unassigned-photos">View Unassigned Photos</option>
+		        	<option value="dynamic-view.html#create-edit-rooms">Create/Edit Rooms</option>
+		        	<option value="dynamic-view.html#assign-photos">Assign Photos</option>
+		        	<option value="dynamic-view.html#view-photos-by-room">View Photos By Room</option>
+		        	<optgroup label="Photo Viewer" />
+		        	<option value="photo-viewer.html#photo-viewer">Photo Viewer</option>
+					<option value="photo-viewer.html#tagging-tab">Tagging Tab</option>
+					<option value="photo-viewer.html#details-tab">Details Tab</option>
+					<optgroup label="Gallery View" />
+					<option value="gallery-view.html#filtering">Filtering</option>
+					<optgroup label="Tagging" />
+					<option value="#how-to-use-tags">How to Use Tags</option>
+					<option value="#types-of-tags">Types of Tags</option>
+					<option value="#where-to-use-tags">Where to Use Tags</option>
+					<optgroup label="Mobile" />
+					<option value="mobile.html#introduction">Introduction</option>
+					<option value="mobile.html#select-location">Select Location</option>
+					<option value="mobile.html#options">Options</option>
+					<option value="mobile.html#upload">Upload</option>
+				</select>
+			</div>
+
+			<div id="content" class="span8">
+				<h1>Tagging</h1>
+				<p>A tag is a descriptor that will help you locate your photos in the future. You can add tags in Dynamic View and in Photo Overlay. These are used primarily to view and sort photos in the Gallery View.</p>
+				<img src="img/help/intro.jpg" />
+
+				<div id="how-to-use-tags" class="subsection">
+					<h2>How to Use Tags</h2>
+					<p>Tags are pieces of information that can be attached to a photo that act as a label. This kind of  data can help make each photo unique and can help you find specific photos down the road.</p>
+
+					<h3>Where to start</h3>
+					<p>By selecting a plan type in Plan Management, you're adding a tag to be used in Dynamic View. The plan types available in Plan Management are Fixed Tags.</p>
+				</div>
+
+				<div id="types-of-tags" class="subsection">
+					<h2>Types of Tags</h2>
+					<p>The most common types of tags are fixed tags.</p>
+					<h3>Fixed Tags</h3>
+					<p>We've created nine tags for you to select from. These nine tags cover the basic types of plan sheets that are most commonly used in construction. The most common tag is Architectural.</p>
+
+					<h3>Custom Tags</h3>
+					<p>Custom tags allow you to create your own labels. These can be used in the Gallery View to search for specific photos or attributes. Examples of custom tags are Sprinkler Systems, HVAC, Seismic, etc. There's no limit to the number of custom tags you can have.</p>
+				</div>
+
+				<div id="where-to-use-tags" class="subsection">
+					<h2>Where to Use Tags</h2>
+					<p>Threshold makes extensive use of the tagging system. You'll do the majority of your tagging in Dynamic View.</p>
+					<h3>Dynamic View</h3>
+					<p>The tagging process starts when a photo is added to a room in Dynamic View. This is the only way to add your first fixed tag. We do this because when photos are first uploaded, they are only associated with a project. When you drag and drop a photo in Dynamic View you're adding a set (floor), room, and trade (plan type) tag.</p>
+					<img src="img/help/dynamic.jpg" />
+					<p>Example: If you add a photo to the mechanical plan, the photo's first tag will be "Mechanical".</p>
+					<p>At first this photo will reside only on the mechanical plan. In the Photo Overlay you can assign multiple tags, which will allow your photo to be viewed on multiple plan types.</p>
+
+					<h3>Photo Viewer</h3>
+					<p>After you've added a photo to a room all of your secondary tagging will take place in the Photo Viewer. To add tags to a photo click on the fixed or custom tags on the lower right. When a tag has been selected it will become highlighted.</p>
+
+					<h3>Gallery View</h3>
+					<p>Gallery View is where you can use tags to find specific photos. When you select a tag on the lower left, the photos on the right will be sorted to only include photos with that specific tag. The tags, in conjunction with filtering by location and date will allow you find specific photos.</p>
+				</div>
+
+			</div>
+
+			<div id="sidebar" class="span3 hidden-phone">
+				<a href="index.html" class="nav-heading">Introduction</a>
+				<a href="uploading.html" class="nav-heading">Uploading</a>
+				<a href="plan-management.html" class="nav-heading">Plan Management</a>
+				<a href="dynamic-view.html" class="nav-heading">Dynamic View</a>
+				<a href="photo-viewer.html" class="nav-heading">Photo Viewer</a>
+				<a href="gallery-view.html" class="nav-heading">Gallery View</a>
+				<a href="tagging.html" class="nav-heading active-nav">Tagging</a>
+				<div class="nav-bar">
+					<ul class="nav">
+						<li><a href="#how-to-use-tags">How to Use Tags</a></li>
+						<li><a href="#types-of-tags">Types of Tags</a></li>
+						<li><a href="#where-to-use-tags">Where to Use Tags</a></li>
+					</ul>
+			    </div>
+				<a href="mobile.html" class="nav-heading last">Mobile</a>
+			</div>
+
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/global.js"></script>
+</body>
+
+</html>

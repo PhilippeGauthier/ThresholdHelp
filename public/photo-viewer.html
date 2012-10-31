@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+<link href="css/global.css" rel="stylesheet" />
+
+</head>
+
+<body data-spy="scroll" data-target=".nav-bar">
+	<div class="container">
+
+		<div class="row">
+			<div id="header" class="span7">
+				<div id="logo">
+					<div style="float:left;">
+						<a href="http://help.thresholdcm.com"><img src="/img/logo.png" width="51" height="59" /></a>
+					</div>
+					<div id="project-info">
+						<img align="left" alt="Logo_arrow" src="/img/logo-arrow.png" />
+						<a href="#"><h1>Threshold Help</h1></a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="span8 hidden-desktop">
+				<select id="mobile-select">
+					<optgroup label="Introduction" />
+					<option value="index.html#new-project">New Project</option>
+		        	<option value="index.html#global-dashboard">Global Dashboard</option>
+		        	<option value="index.html#project-dashboard">Project Dashboard</option>
+		        	<option value="index.html#invite-users">Invite Users</option>
+		        	<optgroup label="Uploading" />
+		        	<option value="uploading.html#upload-plans">Upload Plans</option>
+					<option value="uploading.html#upload-photos">Upload Photos</option>
+					<optgroup label="Plan Management" />
+					<option value="plan-management.html#create-sets">Create Sets</option>
+		    		<option value="plan-management.html#organize-sets">Organize Sets</option>
+		    		<option value="plan-management.html#plan-types">Plan Types</option>
+		    		<option value="plan-management.html#alignment">Alignment</option>
+		    		<optgroup label="Dynamic View" />
+		    		<option value="dynamic-view.html#view-unassigned-photos">View Unassigned Photos</option>
+		        	<option value="dynamic-view.html#create-edit-rooms">Create/Edit Rooms</option>
+		        	<option value="dynamic-view.html#assign-photos">Assign Photos</option>
+		        	<option value="dynamic-view.html#view-photos-by-room">View Photos By Room</option>
+		        	<optgroup label="Photo Viewer" />
+		        	<option value="#photo-viewer">Photo Viewer</option>
+					<option value="#tagging-tab">Tagging Tab</option>
+					<option value="#details-tab">Details Tab</option>
+					<optgroup label="Gallery View" />
+					<option value="gallery-view.html#filtering">Filtering</option>
+					<optgroup label="Tagging" />
+					<option value="tagging.html#how-to-use-tags">How to Use Tags</option>
+					<option value="tagging.html#types-of-tags">Types of Tags</option>
+					<option value="tagging.html#where-to-use-tags">Where to Use Tags</option>
+					<optgroup label="Mobile" />
+					<option value="mobile.html#introduction">Introduction</option>
+					<option value="mobile.html#select-location">Select Location</option>
+					<option value="mobile.html#options">Options</option>
+					<option value="mobile.html#upload">Upload</option>
+				</select>
+			</div>
+
+			<div id="content" class="span8">
+				<a id="photo-viewer"><h1>Photo Viewer</h1></a>
+				<p>The photo viewer is where you’ll view and tag your photos. The photo viwer is accessible by clicking on any thumbnail image on the site.</p>
+				<img src="img/help/overlay_overview.jpg" />
+
+				<div id="photo-controls" class="subsection">
+					<h2>Photo Controls</h2>
+					<p>The following controls are organized from left to right.</p>
+					<ul>
+						<li>Full Size: Opens your original size photo in a new browser tab or window. You can right click this photo and save it to your computer.</li>
+						<li>Rotate Left &amp; Rotate Right: Allows you to rotate your photo if it displays incorrectly. Changes are saved automatically.</li>
+						<li>Remove Photo from Room: This button will remove the photo from the room and place it in the Unassigned photo bank.</li>
+						<li>Delete Photo: Deletes the photo from Threshold. Once a photo is deleted it will not appear anywhere else on the site. If you only wish to remove a photo from the room simply click all the fixed tags that are activated.</li>
+						<li>Public/Private:  Click on the lock icon to toggle a photo between public and private. A photo that is marked as private can only be seen by Threshold Admins and Unrestricted View Only Users. Conversely a photo marked public can be seen by every participant on the project <link to participant types>.</li>
+					</ul>
+					<img src="img/help/photo_control.jpg" />
+				</div>
+
+				<div id="tagging-tab" class="subsection">
+					<h2>Tagging Tab</h2>
+					<p>Tagging is how Threshold organizes photos beyond their geographic locations. You can learn more about tagging in the tagging help section.</p>
+
+					<h3>Photo Orientation</h3>
+					<p>This functions allows you to specify a direction to your photo and acts as a tag so you can sort your photos by direction in the gallery view.</p>
+					<p><strong>Tip:</strong> Use the same orientation as designated on your plans.</p>
+					<img src="img/help/orientation.jpg" />
+
+					<h3>Fixed Tags</h3>
+					<p>Displays all fixed tags. For more information on tagging, click here.</p>
+					<img src="img/help/fixed.jpg" />
+
+					<h3>Custom Tags</h3>
+					<p>Displays all custom tags. To add a Custom Tag, select the “add tags” link. This will open a box which will allow you to enter as many custom tags as you want. These tags will only need to be created once and are project specific. You can delete a tag by hovering over it and selecting the “Remove Tag from Project” button. This will delete the tag from the project and all photos with this tag will no longer be able to be searched by the tag.</p>
+					<img src="img/help/custom.jpg" />
+				</div>
+
+				<div id="details-tab" class="subsection">
+					<h2>Details Tab</h2>
+					<p>The details tab is where you can find information about your photo. This tab is helpful if you need to print a photo out with its information.</p>
+					<img src="img/help/details.jpg" />
+				</div>
+
+			</div>
+
+			<div id="sidebar" class="span3 hidden-phone">
+				<a href="index.html" class="nav-heading">Introduction</a>
+				<a href="uploading.html" class="nav-heading">Uploading</a>
+				<a href="plan-management.html" class="nav-heading">Plan Management</a>
+				<a href="dynamic-view.html" class="nav-heading">Dynamic View</a>
+				<a href="photo-viewer.html" class="nav-heading active-nav">Photo Viewer</a>
+				<div class="nav-bar">
+					<ul class="nav">
+						<li><a href="#photo-controls">Photo Controls</a></li>
+						<li><a href="#tagging-tab">Tagging Tab</a></li>
+						<li><a href="#details-tab">Details Tab</a></li>
+					</ul>
+			    </div>
+				<a href="gallery-view.html" class="nav-heading">Gallery View</a>
+				<a href="tagging.html" class="nav-heading">Tagging</a>
+				<a href="mobile.html" class="nav-heading last">Mobile</a>
+			</div>
+
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/global.js"></script>
+</body>
+
+</html>
