@@ -1,6 +1,4 @@
 $(document).ready( function () {
-	$('.intro-nav').scrollspy();
-
 	$('#mobile-select').change ( function () {
 		window.location = $(this).val();
 	})

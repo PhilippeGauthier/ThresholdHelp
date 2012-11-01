@@ -70,6 +70,7 @@ li {
 	border:1px solid #E6E6E6;
 	border-radius:5px;
 	padding:30px 40px 0 30px;
+	margin-bottom:20px;
 }
 
 .subsection {
@@ -83,13 +84,13 @@ li {
 }
 
 #sidebar {
-	border:1px solid #B7C4C5;
-	border-radius:5px;
+	
 	height:auto;
 }
 
 #sidebar a {
-	border-bottom:1px solid #B7C4C5;
+	border:1px solid #B7C4C5;
+	border-top:none;
 	color:#303030;
 	font-size:13px;
 	font-weight:bold;
@@ -97,8 +98,15 @@ li {
 	text-decoration:none;
 }
 
+#sidebar .first {
+	border-top:1px solid #B7C4C5;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
 #sidebar .last {
-	border-bottom:none;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
 }
 
 #sidebar .active a {
@@ -127,6 +135,9 @@ li {
 	background:url('../img/accordion-arrow-dwn.gif') no-repeat 15px center #EEF1F1;
 }
 
+.legal li {
+	margin-bottom:5px;
+}
 
 /* Large desktop */
 @media (min-width: 1200px) {
